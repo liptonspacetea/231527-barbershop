@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body class="inner-page">
+    <header class="main-header">
+       <div class="center-container clearfix">
+           <nav class="main-navigation">
+               <a class="logo-inner" href="index.html">
+                   <img src="img/inner-logo.png" width="111" height="24"  alt="Барбершоп Бородинский">
+               </a>
+               <ul>
+                   <li>
+                       <a href="#">Информация</a>
+                   </li>
+                   <li>
+                       <a href="#">Новости</a>
+                   </li>
+                   <li>
+                       <a href="price.html">Прайс-лист</a>
+                   </li>
+                   <li class="active">
+                       <a href="shop.html">Магазин</a>
+                   </li>
+                   <li>
+                       <a href="#">Контакты</a>
+                   </li>
+               </ul>
+           </nav>
+           <div class="user-block">
+               <a class="login" href="login.html">Вход</a>
+           </div>
+       </div>
+   </header>
+   <main class="center-container">
+       <div class="inner-page-title">
+           <h1>Средства для ухода</h1>
+           <ul class="breadcrumbs">
+               <li>
+                   <a href="index.html">Главная</a>
+               </li>
+               <li>
+                   <a href="shop.html">Магазин</a>
+               </li>
+               <li class="current">Средства для ухода</li>
+           </ul>
+       </div>
+       <div class="inner-content clearfix">
+           <div class="shop-catalog-filters">
+               <form action="#" method="get">
+                   <fieldset class="brands">
+                       <legend>Производители</legend>
+                       <label class="brands-checkbox">
+                           <input class="checkbox-baxter" type="checkbox" name="baxter">
+                           <span class="checkbox-indicator"></span>
+                           Baxter of California
+                       </label>
+                       <label class="brands-checkbox">
+                           <input class="checkbox-natty" type="checkbox" name="natty">
+                           <span class="checkbox-indicator"></span>
+                           Mr Natty
+                       </label>
+                       <label class="brands-checkbox">
+                           <input class="checkbox-suavecito" type="checkbox" name="suavecito">
+                           <span class="checkbox-indicator"></span>
+                           Suavecito
+                       </label>
+                       <label class="brands-checkbox">
+                           <input class="checkbox-malin-goetz" type="checkbox" name="malin-goetz">
+                           <span class="checkbox-indicator"></span>
+                           Malin+Goetz
+                       </label>
+                       <label class="brands-checkbox">
+                           <input class="checkbox-murray" type="checkbox" name="murray">
+                           <span class="checkbox-indicator"></span>
+                           Murray`s
+                       </label>
+                       <label class="brands-checkbox">
+                           <input class="checkbox-crew" type="checkbox" name="crew">
+                           <span class="checkbox-indicator"></span>
+                           American Crew
+                       </label>
+                   </fieldset>
+                   <fieldset class="goods">
+                       <legend>Группы товаров</legend>
+                       <label class="goods-radio">
+                           <input type="radio" name="goods" value="1">
+                           <span class="radio-indicator"></span>
+                           Бритвенные<br> принадлежности
+                       </label>
+                       <label class="goods-radio">
+                           <input type="radio" name="goods" value="2">
+                           <span class="radio-indicator"></span>
+                           Средства для ухода
+                       </label>
+                       <label class="goods-radio">
+                           <input type="radio" name="goods" value="3">
+                           <span class="radio-indicator"></span>
+                           Аксессуары
+                       </label>
+                   </fieldset>
+                   <button class="btn" type="submit">Показать</button>
+               </form>
+           </div>
+           <div class="shop-catalog clearfix">
+               <div class="shop-catalog-items clearfix">
+                   <div class="catalog-item baxter">
+                       <figure>
+                           <img src="img/catalog-img-1.jpg" width="220" height="165" alt="Картинка потерялась, но мы ее уже ищем :)">
+                           <figcaption class="catalog-item-title">
+                               <a href="item-1.html">
+                                   <span>Набор для путешествий</span><br> "Baxter of California"
+                               </a>
+                           </figcaption>
+                       </figure>
+                       <div class="price-buy">
+                           <span>2900 руб.</span>
+                           <a class="btn" href="#">Купить</a>
+                       </div>
+                   </div>
+                   <div class="catalog-item baxter">
+                       <figure>
+                           <img src="img/catalog-img-2.jpg" width="220" height="165" alt="Картинка потерялась, но мы ее уже ищем :)">
+                           <figcaption class="catalog-item-title">
+                               <a href="#">
+                                   <span>Увлажняющий кондиционер</span><br> "Baxter of California"
+                               </a>
+                           </figcaption>
+                       </figure>
+                       <div class="price-buy">
+                           <span>750 руб.</span>
+                           <a class="btn" href="#">Купить</a>
+                       </div>
+                   </div>
+                   <div class="catalog-item suavecito">
+                       <figure>
+                           <img src="img/catalog-img-3.jpg" width="220" height="165" alt="Картинка потерялась, но мы ее уже ищем :)">
+                           <figcaption class="catalog-item-title">
+                               <a href="#">
+                                   <span>Гель для волос</span><br> "Suavecito"
+                               </a>
+                           </figcaption>
+                       </figure>
+                       <div class="price-buy">
+                           <span>290 руб.</span>
+                           <a class="btn" href="#">Купить</a>
+                       </div>
+                   </div>
+                   <div class="catalog-item crew">
+                       <figure>
+                           <img src="img/catalog-img-4.jpg" width="220" height="165" alt="Картинка потерялась, но мы ее уже ищем :)">
+                           <figcaption class="catalog-item-title">
+                               <a href="#">
+                                   <span>Глина для укладки волос</span><br> "American Crew"
+                               </a>
+                           </figcaption>
+                       </figure>
+                       <div class="price-buy">
+                           <span>500 руб.</span>
+                           <a class="btn" href="#">Купить</a>
+                       </div>
+                   </div>
+                   <div class="catalog-item crew">
+                       <figure>
+                           <img src="img/catalog-img-5.jpg" width="220" height="165" alt="Картинка потерялась, но мы ее уже ищем :)">
+                           <figcaption class="catalog-item-title">
+                               <a href="#">
+                                   <span>Гель для волос</span><br> "American Crew"
+                               </a>
+                           </figcaption>
+                       </figure>
+                       <div class="price-buy">
+                           <span>2300 руб.</span>
+                           <a class="btn" href="#">Купить</a>
+                       </div>
+                   </div>
+                   <div class="catalog-item baxter">
+                       <figure>
+                           <img src="img/catalog-img-6.jpg" width="220" height="165" alt="Картинка потерялась, но мы ее уже ищем :)">
+                           <figcaption class="catalog-item-title">
+                               <a href="#">
+                                   <span>Набор для бритья</span><br> "Baxter of California"
+                               </a>
+                           </figcaption>
+                       </figure>
+                       <div class="price-buy">
+                           <span>3900 руб.</span>
+                           <a class="btn" href="#">Купить</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="shop-catalog-controls">
+                   <a class="catalog-controls-btn" href="#">1</a>
+                   <a class="catalog-controls-btn current" href="#">2</a>
+                   <a class="catalog-controls-btn" href="#">3</a>
+                   <a class="catalog-controls-btn" href="#">4</a>
+               </div>
+           </div> 
+       </div>
+   </main>
+   <footer class="main-footer clearfix footer-shadow">
+       <div class="center-container">
+           <div class="footer-contacts">
+               Барбершоп "Бородинский"<br>
+               Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+               <a class="map" href="map.html">Как нас найти</a><br>
+               Телефон: +7 (495) 666-02-66
+           </div>
+           <div class="footer-social">
+               <span>Давайте дружить!</span>
+               <a class="social-btn social-vk" href="#">Вконтакте</a>
+               <a class="social-btn social-fb" href="#">Facebook</a>
+               <a class="social-btn social-inst" href="#">Instagram</a>
+           </div>
+           <div class="footer-copyright">
+               <span>Разработано:</span>
+               <a class="btn" href="#">HTML Academy</a>
+           </div>
+       </div>
+   </footer>
+   <div class="modal-content">
+       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+       <h2 class="modal-content-title">Личный кабинет</h2>
+       <p>Введите свой логин и пароль</p>
+       <form class="login-form" action="#" method="post">
+           <input type="text" class="icon-user" name="login" placeholder="Логин">
+           <input type="password" class="icon-password" name="password" placeholder="Пароль">
+           <label class="login-checkbox">
+               <input type="checkbox" name="remember">
+               <span class="checkbox-indicator"></span>
+               Запомните меня
+           </label>
+           <a href="#" class="restore">Я забыл пароль!</a>
+           <button class="btn" type="submit">Войти</button>
+       </form>
+   </div>
+   <div class="modal-content-map">
+       <button class="modal-content-close close-map" type="button" title="Закрыть">Закрыть</button>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616097!3d59.938794181876254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1490025123425" width="766" height="561" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>
+   <div class="modal-overlay"></div>
+   <script src="js/popup.js"></script>
+</body>
+</html>
